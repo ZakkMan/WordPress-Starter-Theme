@@ -1,0 +1,13 @@
+{% include '_baseheader.twig' %}
+
+<body class="{{ body_class }}">
+  {% include 'partials/site_header.twig' %}
+</body>
+
+<section id="js-view" class="c-page-view">
+  {% block content %}
+
+  {% endblock %}
+</section>
+
+{% include '_basefooter.twig' %}

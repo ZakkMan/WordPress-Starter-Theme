@@ -1,0 +1,14 @@
+<header class="c-header">
+  <div class="wrapper">
+    <a href="/"><h1 class="logo">Shed</h1></a>
+    <nav id="nav-main" class="nav-main" role="navigation">
+      <ul>
+      {% for item in mainMenu.get_items %}
+      	<li class="{{item.classes | join(' ')}}">
+      		<a href="{{item.get_link}}" class="js-ajax-link">{{item.title}}</a>
+      	</li>
+      {% endfor %}
+      </ul>
+    </nav><!-- #nav -->
+  </div>
+</header>

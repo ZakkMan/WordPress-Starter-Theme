@@ -1,0 +1,13 @@
+  <script>
+  window.APP = window.APP || {};
+  APP.VARS = {};
+  APP.BASE_URL = '{{ site.url }}';
+  APP.THEME_URL = '{{ site.theme.uri }}';
+  APP.AJAX_URL = '{{ function('admin_url', 'admin-ajax.php') }}';
+  APP.VIDEOS = {{ option.videos|json_encode() }};
+  </script>
+  <script type="text/javascript" src="{{ site.theme.link }}/build/app.min.js"></script>
+
+  {{ function('wp_footer') }}
+  </body>
+</html>

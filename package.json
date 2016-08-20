@@ -1,0 +1,25 @@
+{
+  "name": "biggie",
+  "version": "1.0.0",
+  "description": "A WordPress starter theme using Biggie and Big Wheel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bigwheel": "^3.0.0",
+    "bw-router": "^2.0.6",
+    "bw-viewmediator": "^2.2.0",
+    "bw-vm": "^2.1.3",
+    "gsap": "^1.19.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
